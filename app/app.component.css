@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover, a:active {
+    color: gray;
+}
+
+h3 {
+    text-align: center;
+}
+
+mat-sidenav {
+    border: 1px solid red;
+    width: 250px;
+}
+
+mat-sidenav-container, mat-sidenav-content {
+    height: 100%;
+}
+
+.navigation-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
