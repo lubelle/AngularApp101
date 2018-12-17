@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { ProductsComponent } from './products.component';
@@ -37,7 +38,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
       FormsModule,
       AppRoutingModule,
       BrowserAnimationsModule,
-      MaterialModule
+      MaterialModule,
+      FlexLayoutModule
    ],
    providers: [
        ProductsService
